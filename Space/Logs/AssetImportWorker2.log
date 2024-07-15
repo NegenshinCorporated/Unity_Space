@@ -1,0 +1,702 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 32610 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\Unity 2022.3.19f1\2022.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/B-ZONE/Space
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+55340
+Successfully changed project path to: C:/Users/B-ZONE/Space
+C:/Users/B-ZONE/Space
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15464] Host "[IP] 192.168.0.107 [Port] 0 [Flags] 2 [Guid] 1857784439 [EditorId] 1857784439 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IPRQFUO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15464] Host "[IP] 192.168.0.107 [Port] 0 [Flags] 2 [Guid] 1857784439 [EditorId] 1857784439 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IPRQFUO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 8.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.19f1 (244b723c30a6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/Unity 2022.3.19f1/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/B-ZONE/Space/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   NVIDIA
+    VRAM:     8032 MB
+    Driver:   31.0.15.4617
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/Unity 2022.3.19f1/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/Unity 2022.3.19f1/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/Unity 2022.3.19f1/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2022.3.19f1/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2022.3.19f1/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008242 seconds.
+- Loaded All Assemblies, in  0.262 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.193 seconds
+Domain Reload Profiling: 454ms
+	BeginReloadAssembly (82ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (98ms)
+		LoadAssemblies (80ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (97ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (86ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (193ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (153ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (105ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.438 seconds
+Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.410 seconds
+Domain Reload Profiling: 846ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (267ms)
+		LoadAssemblies (209ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (97ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (411ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (305ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (225ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.3 KB). Loaded Objects now: 3559.
+Memory consumption went from 131.9 MB to 131.8 MB.
+Total: 2.011200 ms (FindLiveObjects: 0.147800 ms CreateObjectMapping: 0.057900 ms MarkObjects: 1.730000 ms  DeleteObjects: 0.074900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SimpleCollectibleScript.cs: 10f583730acbbd43ccc0ce89bcd40cd9 -> 9630bf71afffe94474584c7e50e8f946
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 69518.870077 seconds.
+  path: Assets/Prefabs/SimpleCollectiblesPack/Prefabs/Gems
+  artifactKey: Guid(0225b01194a2b874aab88b157a916847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SimpleCollectiblesPack/Prefabs/Gems using Guid(0225b01194a2b874aab88b157a916847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555277a90f809e3c7a49e90545bb8a0d') in 0.002382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102038 seconds.
+  path: Assets/Prefabs/SimpleCollectiblesPack/Prefabs/Gems/Gem1Blue.prefab
+  artifactKey: Guid(32923e0a5e036d04fa9be7ef9cc548e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SimpleCollectiblesPack/Prefabs/Gems/Gem1Blue.prefab using Guid(32923e0a5e036d04fa9be7ef9cc548e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4433541a92052f242ef26f073f086392') in 0.141921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 6.477470 seconds.
+  path: Assets/Prefabs/Gamer Squid/Assets
+  artifactKey: Guid(0e2c641bca13bc941ba7128517645971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gamer Squid/Assets using Guid(0e2c641bca13bc941ba7128517645971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419b5873dd1d6fc93e543b984e0505e4') in 0.000423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.673468 seconds.
+  path: Assets/Prefabs/Gamer Squid/Assets/Prefabs
+  artifactKey: Guid(b079133e5ebc71e4e8f80b4a92d59d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gamer Squid/Assets/Prefabs using Guid(b079133e5ebc71e4e8f80b4a92d59d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7b3181e6d873b2df02468fbb40fb2d') in 0.000421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.064602 seconds.
+  path: Assets/Prefabs/Gamer Squid/Assets/Prefabs/CruiseFighter (Black and Gold).prefab
+  artifactKey: Guid(a8ef9e2d88c66b546a6fc8dfeed1c8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gamer Squid/Assets/Prefabs/CruiseFighter (Black and Gold).prefab using Guid(a8ef9e2d88c66b546a6fc8dfeed1c8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4727c3f0d49587d2d3215e0671e5d226') in 0.317744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Gamer Squid/Assets/Prefabs/CruiseFighter (Old Red).prefab
+  artifactKey: Guid(a3e9bd2d875ca52428801bc00f70c240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gamer Squid/Assets/Prefabs/CruiseFighter (Old Red).prefab using Guid(a3e9bd2d875ca52428801bc00f70c240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b8c3152e82c548711b077cff7d572b') in 0.071360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 46.994940 seconds.
+  path: Assets/Prefabs/Autarca/AlienShipsPack
+  artifactKey: Guid(1b6126e04ff195d42970410dda41069e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Autarca/AlienShipsPack using Guid(1b6126e04ff195d42970410dda41069e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fe25db192888907df896b1daba80ae') in 0.000507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.661900 seconds.
+  path: Assets/Prefabs/Autarca/AlienShipsPack/Prefabs
+  artifactKey: Guid(e6fe729d075cce2449da3d26e4e2d5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Autarca/AlienShipsPack/Prefabs using Guid(e6fe729d075cce2449da3d26e4e2d5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147f07dcd4f709d6525c6a8cc3a4ec1f') in 0.000522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102185 seconds.
+  path: Assets/Prefabs/Autarca/AlienShipsPack/Prefabs/AlienDestroyer.prefab
+  artifactKey: Guid(8e35ec7e332c3d243ac23e3686bafe01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Autarca/AlienShipsPack/Prefabs/AlienDestroyer.prefab using Guid(8e35ec7e332c3d243ac23e3686bafe01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7393514c5d85aae125f8cc4548b2c44c') in 0.064713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/Autarca/AlienShipsPack/Prefabs/BioTorpedoWhite.prefab
+  artifactKey: Guid(0eb1dc9b0d8505f45a18313076e1e653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Autarca/AlienShipsPack/Prefabs/BioTorpedoWhite.prefab using Guid(0eb1dc9b0d8505f45a18313076e1e653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9028e474e403498cc2ee4d8c2f2ffdd5') in 0.013801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Autarca/AlienShipsPack/Prefabs/BioTorpedo.prefab
+  artifactKey: Guid(79eac1308df01c1459d5833c9cb6055c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Autarca/AlienShipsPack/Prefabs/BioTorpedo.prefab using Guid(79eac1308df01c1459d5833c9cb6055c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e6ea2a2b23a0db2e26cd05ba9cad16') in 0.016911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 8.522921 seconds.
+  path: Assets/Prefabs/Autarca
+  artifactKey: Guid(9e0db549bb5183f47a7fd9bd8c903cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Autarca using Guid(9e0db549bb5183f47a7fd9bd8c903cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b551d5ae5899d52014ec8dbb1aae6b') in 0.000468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.898175 seconds.
+  path: Assets/Prefabs/SimpleCollectiblesPack/Materials/Collectibles 1.mat
+  artifactKey: Guid(9bee1ece51592f843996472527e9e1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SimpleCollectiblesPack/Materials/Collectibles 1.mat using Guid(9bee1ece51592f843996472527e9e1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e119cc7e5c69343f52fa665d7ec989') in 0.047654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.371 seconds
+Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.675 seconds
+Domain Reload Profiling: 1043ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (176ms)
+		LoadAssemblies (233ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (675ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (322ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (239ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.2 KB). Loaded Objects now: 3605.
+Memory consumption went from 137.4 MB to 137.4 MB.
+Total: 1.919900 ms (FindLiveObjects: 0.149300 ms CreateObjectMapping: 0.062200 ms MarkObjects: 1.656600 ms  DeleteObjects: 0.050400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SimpleCollectibleScript.cs: 10f583730acbbd43ccc0ce89bcd40cd9 -> 9630bf71afffe94474584c7e50e8f946
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.370 seconds
+Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.688 seconds
+Domain Reload Profiling: 1055ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (182ms)
+		LoadAssemblies (234ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (688ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (307ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3078 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3608.
+Memory consumption went from 139.6 MB to 139.5 MB.
+Total: 2.036900 ms (FindLiveObjects: 0.176200 ms CreateObjectMapping: 0.077000 ms MarkObjects: 1.745000 ms  DeleteObjects: 0.037800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SimpleCollectibleScript.cs: 10f583730acbbd43ccc0ce89bcd40cd9 -> 9630bf71afffe94474584c7e50e8f946
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 348.774015 seconds.
+  path: Assets/Prefabs/Starfield Skybox
+  artifactKey: Guid(0d74f9df20feba547acb00d7beb0d1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Starfield Skybox using Guid(0d74f9df20feba547acb00d7beb0d1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af2fc11fd9542d00cb5b7fdfa212347') in 0.002502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.077271 seconds.
+  path: Assets/Prefabs/Starfield Skybox/Skybox.mat
+  artifactKey: Guid(81f714daf7144784b8a2f42f1cd30927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Starfield Skybox/Skybox.mat using Guid(81f714daf7144784b8a2f42f1cd30927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690c343d50692dc6bd57b2e95c922877') in 0.217261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.093606 seconds.
+  path: Assets/Prefabs/Starfield Skybox/Demo/Textures/Front_Tex.png
+  artifactKey: Guid(a5e005e6ff4298340b2ff009a5991908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Starfield Skybox/Demo/Textures/Front_Tex.png using Guid(a5e005e6ff4298340b2ff009a5991908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e499f914b7d02489a23221614731ef') in 0.030838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Starfield Skybox/Demo/Textures/Left_Tex.png
+  artifactKey: Guid(80f1020b68f9b794994187bf41ba9d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Starfield Skybox/Demo/Textures/Left_Tex.png using Guid(80f1020b68f9b794994187bf41ba9d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e34879d9c5444be301b3f6a2db76dd') in 0.027035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Starfield Skybox/Demo/Textures/Right_Tex.png
+  artifactKey: Guid(411c36f0804e8c248a3f6470ca50cd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Starfield Skybox/Demo/Textures/Right_Tex.png using Guid(411c36f0804e8c248a3f6470ca50cd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfed9d3276e9e7481d3df8651b5d152') in 0.026376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Starfield Skybox/Demo/Textures/Down_Tex.png
+  artifactKey: Guid(a3b2b45ab4da8b343ad09a56207d3910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Starfield Skybox/Demo/Textures/Down_Tex.png using Guid(a3b2b45ab4da8b343ad09a56207d3910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c06d4080861a26c9b9419b40b19634') in 0.026638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 41.636222 seconds.
+  path: Assets/Prefabs/SimpleCollectiblesPack/Textures/Collectibles 1.png
+  artifactKey: Guid(18caac7b76c3dc74ca374e998b3b6da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SimpleCollectiblesPack/Textures/Collectibles 1.png using Guid(18caac7b76c3dc74ca374e998b3b6da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336508e7f2366d14dbb3e5d96312a081') in 0.023551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.948231 seconds.
+  path: Assets/Prefabs/SimpleCollectiblesPack/Models/CollectiblesSet1.fbx
+  artifactKey: Guid(e121965519da8964eb443caa891ca78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SimpleCollectiblesPack/Models/CollectiblesSet1.fbx using Guid(e121965519da8964eb443caa891ca78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa89f285d34584e9fb65e00fde7bceb9') in 0.283037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 6.210276 seconds.
+  path: Assets/Prefabs/Gamer Squid/Assets/Models/CruiseFighter.fbx
+  artifactKey: Guid(7fea2db65062cc645a42de560c2e6d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gamer Squid/Assets/Models/CruiseFighter.fbx using Guid(7fea2db65062cc645a42de560c2e6d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7145d2ea1ac8cad6c204b94b79ca5e') in 0.050458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 1.875609 seconds.
+  path: Assets/Prefabs/Gamer Squid/Assets/Models/Materials/Exhaust Outlet.mat
+  artifactKey: Guid(4f0b6b4aceb80dd4d81b2e9bc9a0bea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gamer Squid/Assets/Models/Materials/Exhaust Outlet.mat using Guid(4f0b6b4aceb80dd4d81b2e9bc9a0bea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da59d903e9f22a4c27190e7a45698dc4') in 0.016747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Gamer Squid/Assets/Models/Materials/Window.mat
+  artifactKey: Guid(2cc1b6d9df6d61e4380646305c22530a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gamer Squid/Assets/Models/Materials/Window.mat using Guid(2cc1b6d9df6d61e4380646305c22530a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc0be6359dd3d37c57ef8825f81fee9') in 0.009169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Gamer Squid/Assets/Models/Materials/Lights.mat
+  artifactKey: Guid(03a5be7e3b4e7074796c75c90772b5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gamer Squid/Assets/Models/Materials/Lights.mat using Guid(03a5be7e3b4e7074796c75c90772b5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd6f5666dd585c9a6942d586f857750') in 0.064103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.756706 seconds.
+  path: Assets/Prefabs/Gamer Squid/Assets/Prefabs/CruiseFighter (Black and Gold).prefab
+  artifactKey: Guid(a8ef9e2d88c66b546a6fc8dfeed1c8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gamer Squid/Assets/Prefabs/CruiseFighter (Black and Gold).prefab using Guid(a8ef9e2d88c66b546a6fc8dfeed1c8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206975bc209e5cfed1635052477cf00e') in 0.120585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Gamer Squid/Assets/Prefabs/CruiseFighter (Shiny Silver).prefab
+  artifactKey: Guid(d45cd38fab4caff4fb282fac230099ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gamer Squid/Assets/Prefabs/CruiseFighter (Shiny Silver).prefab using Guid(d45cd38fab4caff4fb282fac230099ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d8a40dd3cae19b540eaf6dba658958') in 0.088575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 9.869326 seconds.
+  path: Assets/Prefabs/Autarca/AlienShipsPack/Materials/AlienDestroyer.mat
+  artifactKey: Guid(780b55d2458349f4b91fca04c2846ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Autarca/AlienShipsPack/Materials/AlienDestroyer.mat using Guid(780b55d2458349f4b91fca04c2846ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66a80becc6bb7e5112208e804d52f94') in 0.054702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefabs/Autarca/AlienShipsPack/Materials/BioTorpedo.mat
+  artifactKey: Guid(74f161b937e8f3e46ada026fa002840c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Autarca/AlienShipsPack/Materials/BioTorpedo.mat using Guid(74f161b937e8f3e46ada026fa002840c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0922745e35321cee3209e00c96a0ff39') in 0.014993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Autarca/AlienShipsPack/Materials/AlienFighterWhite.mat
+  artifactKey: Guid(84a2b5a80e12d4340b0392ba4f7f1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Autarca/AlienShipsPack/Materials/AlienFighterWhite.mat using Guid(84a2b5a80e12d4340b0392ba4f7f1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f9de458f159cbcc5d176cfe8d0e51b') in 0.017165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 45.847088 seconds.
+  path: Assets/Prefabs/Gamer Squid/Demo
+  artifactKey: Guid(513fc4cbf6a1f0045ab6e8f3c71240a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gamer Squid/Demo using Guid(513fc4cbf6a1f0045ab6e8f3c71240a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8ae3e3b19d0ed23bb1335c615a3f71') in 0.000571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 41.930663 seconds.
+  path: Assets/Prefabs/Autarca/AlienShipsPack/Textures/AlienDestroyer_AlbedoTransparency.png
+  artifactKey: Guid(efb763d12f4c60647b040b1538437cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Autarca/AlienShipsPack/Textures/AlienDestroyer_AlbedoTransparency.png using Guid(efb763d12f4c60647b040b1538437cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0922c9d2dc71aafadd4abe5bdef818') in 0.025851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Autarca/AlienShipsPack/Textures/AlienFighter_AlbedoTransparency.png
+  artifactKey: Guid(e83b7bc98faf995408607a4623add54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Autarca/AlienShipsPack/Textures/AlienFighter_AlbedoTransparency.png using Guid(e83b7bc98faf995408607a4623add54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9797b1774493cd1c82383d32f0aed99c') in 0.019043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Autarca/AlienShipsPack/Textures/AlienFighterGreen_AlbedoTransparency.png
+  artifactKey: Guid(dffee2b9725bf2d43936d1bbd407395b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Autarca/AlienShipsPack/Textures/AlienFighterGreen_AlbedoTransparency.png using Guid(dffee2b9725bf2d43936d1bbd407395b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f23fbffdcf1878a15ccaf0996a13018') in 0.017250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Prefabs/Autarca/AlienShipsPack/Textures/AlienDestroyerWhite_Emission.png
+  artifactKey: Guid(3ab9722a3e6cf9d4e83bca940edc929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Autarca/AlienShipsPack/Textures/AlienDestroyerWhite_Emission.png using Guid(3ab9722a3e6cf9d4e83bca940edc929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c5df8fc92220a76c8ac93197099ed5') in 0.017569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Autarca/AlienShipsPack/Textures/AlienFighter_Normal.png
+  artifactKey: Guid(d08bd1eec578be94e81285c886fba45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Autarca/AlienShipsPack/Textures/AlienFighter_Normal.png using Guid(d08bd1eec578be94e81285c886fba45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f4cff16e0095aae7f9d3aff6df5b38') in 0.025228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Autarca/AlienShipsPack/Textures/BioTorpedo_Normal.png
+  artifactKey: Guid(73c2dbd352ce18a478497f4b1f8b90ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Autarca/AlienShipsPack/Textures/BioTorpedo_Normal.png using Guid(73c2dbd352ce18a478497f4b1f8b90ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9787d934cb3838fd2b7d027bc9ba4e3') in 0.018252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/Autarca/AlienShipsPack/Textures/BioTorpedoGreen_AlbedoTransparency.png
+  artifactKey: Guid(3a35a930e0cf7bd41ad98077f73daaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Autarca/AlienShipsPack/Textures/BioTorpedoGreen_AlbedoTransparency.png using Guid(3a35a930e0cf7bd41ad98077f73daaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecde391133e4e880febe1fc254bff238') in 0.028143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Autarca/AlienShipsPack/Textures/AlienDestroyerGreen_Emission.png
+  artifactKey: Guid(ce8377658ae05874bb59006dd87be154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Autarca/AlienShipsPack/Textures/AlienDestroyerGreen_Emission.png using Guid(ce8377658ae05874bb59006dd87be154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1313c19b7978cb7fe51c626bd763021') in 0.015134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Autarca/AlienShipsPack/Textures/BioTorpedoWhite_AlbedoTransparency.png
+  artifactKey: Guid(0dee76844c161804ea24bc86bfb41a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Autarca/AlienShipsPack/Textures/BioTorpedoWhite_AlbedoTransparency.png using Guid(0dee76844c161804ea24bc86bfb41a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ee3d5163999ec7c949e1276c61e9c9') in 0.019702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Autarca/AlienShipsPack/Textures/BioTorpedo_AlbedoTransparency.png
+  artifactKey: Guid(25e1fef4178fb574b9af72848dd14c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Autarca/AlienShipsPack/Textures/BioTorpedo_AlbedoTransparency.png using Guid(25e1fef4178fb574b9af72848dd14c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc67de721c81c760398864973875ad0') in 0.014566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Prefabs/Autarca/AlienShipsPack/Textures/AlienDestroyer_Normal.png
+  artifactKey: Guid(ed5a0425e7c7b3c48921d55a8ebf24e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Autarca/AlienShipsPack/Textures/AlienDestroyer_Normal.png using Guid(ed5a0425e7c7b3c48921d55a8ebf24e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822644bb1e13a3e842f4c8a100a3c5d2') in 0.025924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.026702 seconds.
+  path: Assets/Prefabs/Gamer Squid/Assets/Textures/Window/Black/CruiseFighter_Window_AO.png
+  artifactKey: Guid(df0df1d1465981d428d9ad32c2934b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gamer Squid/Assets/Textures/Window/Black/CruiseFighter_Window_AO.png using Guid(df0df1d1465981d428d9ad32c2934b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e877969bdd24e2dc344d03cabd97b7c') in 0.033007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Prefabs/Gamer Squid/Assets/Textures/Window/Black/CruiseFighter_Window_Normal.png
+  artifactKey: Guid(0fb921764da8b9345b1683e0e1f7f973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gamer Squid/Assets/Textures/Window/Black/CruiseFighter_Window_Normal.png using Guid(0fb921764da8b9345b1683e0e1f7f973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4c04fbb47d70ca35cb69e2cb500544') in 0.019347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 505.336688 seconds.
+  path: Assets/Prefabs/3D_Sci-fi_Radio_Locator_Station_01/Textures/RL_L2_station/RL_station_mat_N_01_AmbientOcclusion.png
+  artifactKey: Guid(7f56e4d89c2de57488e1a647ce689ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/3D_Sci-fi_Radio_Locator_Station_01/Textures/RL_L2_station/RL_station_mat_N_01_AmbientOcclusion.png using Guid(7f56e4d89c2de57488e1a647ce689ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e449ecf8a0ac5f562c834e5c02e3e7') in 0.021528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000632 seconds.
+  path: Assets/Prefabs/3D_Sci-fi_Radio_Locator_Station_01/Textures/RL_L2_station/RL_station_mat_N_01_Normal.png
+  artifactKey: Guid(8c681d7f3828ba649b5f8448cffae436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/3D_Sci-fi_Radio_Locator_Station_01/Textures/RL_L2_station/RL_station_mat_N_01_Normal.png using Guid(8c681d7f3828ba649b5f8448cffae436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a6a202ff5cbd6c8df66e8e2299d94c') in 0.020970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/3D_Sci-fi_Radio_Locator_Station_01/Textures/RL_L2_station/RL_station_mat_N_02_AlbedoTransparency.png
+  artifactKey: Guid(266efef18980cf4468cc44c8e90dd2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/3D_Sci-fi_Radio_Locator_Station_01/Textures/RL_L2_station/RL_station_mat_N_02_AlbedoTransparency.png using Guid(266efef18980cf4468cc44c8e90dd2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcfc2ebbca48b64a77f75c62669b345') in 0.017445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/3D_Sci-fi_Radio_Locator_Station_01/Textures/RL_L2_station/RL_station_mat_N_01_Emission.png
+  artifactKey: Guid(4f8284471faa63747a50eb1d05d10b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/3D_Sci-fi_Radio_Locator_Station_01/Textures/RL_L2_station/RL_station_mat_N_01_Emission.png using Guid(4f8284471faa63747a50eb1d05d10b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a41c6bba1eef3feec69bc1e7aead68') in 0.016845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
