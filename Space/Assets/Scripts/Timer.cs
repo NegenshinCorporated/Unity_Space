@@ -7,7 +7,7 @@ using System.Threading;
 public class Timer : MonoBehaviour
 {
     public float timer;
-    private float startTime = 40f;
+    private float startTime = 60f;
     public TextMeshProUGUI timerText;
     private int t;
     private void Start()
